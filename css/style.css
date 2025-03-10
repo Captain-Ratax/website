@@ -237,10 +237,22 @@ main {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: contain;
-	width: 31.25em;
+	max-width: 31.25em;
 	height: 20em;
 	border-radius: 1em;
-  margin: 1em auto;
+	margin: 1em auto;
+}
+
+.spotify_img {
+	background-image: url("https://github-readme-spotify-widget-alpha.vercel.app/api/spotify");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	max-width: 31.25em;
+	min-height: 10em;
+	max-height: 20em;
+	border-radius: 1em;
+	margin: 0.5em auto;
 }
 
 .main_small_button_list {
