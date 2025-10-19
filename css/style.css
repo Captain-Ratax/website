@@ -227,6 +227,22 @@ main {
 	cursor: pointer;
 }
 
+.main_button_item.trackt_item {
+	padding: 1em;
+}
+
+.trackt_img {
+	background-image: url("https://widgets.trakt.tv/users/8bebcc4ece9f98dc26cf056e4b058add/watched/fanart@2x.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 31.25em;
+	height: 20em;
+	border-radius: 1em;
+  	margin: 1em auto;
+}
+
+
 .main_button_item.special_item {
 	padding: 1em;
 }
