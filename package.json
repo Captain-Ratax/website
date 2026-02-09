@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "bootstrap": "^5.3.1",
+    "http-server": "^14.1.1"
+  },
+  "name": "captain-ratax-website",
+  "description": "Code for the [captainratax.com](https://captainratax.com/) website.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Captain-Ratax/website.git"
+  },
+  "keywords": [
+    "streamer",
+    "twitch",
+    "streaming",
+    "twitch.tv",
+    "gaming",
+    "gamer",
+    "destiny2"
+  ],
+  "author": "Captain Ratax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Captain-Ratax/website/issues"
+  },
+  "homepage": "https://github.com/Captain-Ratax/website#readme"
+}
