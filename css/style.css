@@ -235,35 +235,6 @@ main {
     display: block;
 }
 
-/* Para o bloco do Trakt ficar responsivo */
-.main_button_item.trackt_item {
-    padding: 1em;
-    overflow: hidden; /* evita qualquer bleed visual */
-}
-
-.trackt_img {
-    background-image: url("https://widgets.trakt.tv/users/8bebcc4ece9f98dc26cf056e4b058add/watched/fanart@2x.jpg");
-    /* Em vez de largura fixa, usa 100% do content-box do botão */
-    width: 100%;
-    max-width: 31.25em; /* mantém o limite em desktop */
-    /* Mantém a proporção 500x320 (25:16) sem precisar de height fixo */
-    aspect-ratio: 25 / 16;
-    height: auto;
-
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain; /* ou 'cover' se preferires preencher sem barras */
-    border-radius: 1em;
-    margin: 1em auto;
-}
-
-/* Em ecrãs pequenos remove o max-width para ocupar mesmo 100% */
-@media (max-width: 768px) {
-  .trackt_img {
-    max-width: 100%;
-  }
-}
-
 .main_button_item.special_item {
     padding: 1em;
 }
@@ -349,6 +320,17 @@ main {
     text-decoration: none;
 }
 
+.clippy_helper {
+    position: fixed;
+    right: clamp(1rem, 4vw, 3rem);
+    bottom: clamp(1rem, 4vw, 3rem);
+    width: clamp(90px, 12vw, 140px);
+    height: auto;
+    z-index: 20;
+    user-select: none;
+    pointer-events: none;
+}
+
 /* Responsive Codes */
 
 @media (max-width: 768px) {
@@ -367,6 +349,12 @@ main {
     .header_h_item {
         width: 92vw;
         text-align: center;
+    }
+
+    .clippy_helper {
+        right: 1rem;
+        bottom: 1rem;
+        width: clamp(72px, 22vw, 100px);
     }
 }
 
