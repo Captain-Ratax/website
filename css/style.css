@@ -48,7 +48,7 @@
 
 /* Basic Codes */
 
-/* Garantir que o sizing conta com o padding */
+/* Ensure sizing includes padding */
 *,
 *::before,
 *::after {
@@ -220,6 +220,11 @@ main {
     margin-right: 0.5em;
     vertical-align: middle;
 }
+
+.main_button_item_svg {
+    fill: currentColor;
+}
+
 .main_button_item_img.with_background {
     border-radius: 50%;
 }
