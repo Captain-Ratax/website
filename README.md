@@ -1,3 +1,3 @@
-# [captainratax.pt](https://captainratax.pt/) Website
+# [captainratax.com](https://captainratax.com/) Website
 
-Code for the [captainratax.pt](https://captainratax.pt/) website.
+Code for the [captainratax.com](https://captainratax.com/) website.
